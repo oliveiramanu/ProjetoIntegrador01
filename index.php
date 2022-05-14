@@ -53,7 +53,7 @@ $artigos .= '</div>';
 /**
  * Variável que define o título desta página.
  */
-$title = "Quem tem fome tem pressa...";
+$title = "The book on the table...";
 
 /**
  * Inclui o cabeçalho da página.
@@ -75,8 +75,21 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 
 <aside>
 
-    <h3>Lateral</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, aperiam corporis culpa consequatur iusto.</p>
+    <h3>Categorias</h3>
+    <p>THE BOOKS ON THE TABLE.</p>
+    <p>THE BOOKS ON THE TABLE.</p>
+    <p>THE BOOKS ON THE TABLE.</p>
+    <p>THE BOOKS ON THE TABLE.</p>
+    <p>THE BOOKS ON THE TABLE.</p>
+    <p>THE BOOKS ON THE TABLE.</p>
+    <p>THE BOOKS ON THE TABLE.</p>
+    <p>THE BOOKS ON THE TABLE.</p>
+    <p>THE BOOKS ON THE TABLE.</p>
+    <p>THE BOOKS ON THE TABLE.</p>
+    <p>THE BOOKS ON THE TABLE.</p>
+    <p>THE BOOKS ON THE TABLE.</p>
+    <p>THE BOOKS ON THE TABLE.</p>
+    <p>THE BOOKS ON THE TABLE.</p>
 
 </aside>
 
