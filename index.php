@@ -14,13 +14,11 @@ $artigos = '';
 
 // SQL que obtém todos os artigos.
 $sql = <<<SQL
-
 SELECT art_id, art_title, art_intro, art_thumb 
     FROM articles
 WHERE art_status = 'on'
     AND art_date <= NOW()
 ORDER BY art_date DESC;
-
 SQL;
 
 // Executa a query --> '$res' contém os artigos encontrados.
@@ -34,7 +32,6 @@ while ($artigo = $res->fetch_assoc()) :
 
     // Formata HTML de saída
     $artigos .= <<<HTML
-
         <div class="item" onclick="location.href='/ler/?id={$artigo['art_id']}'">
             <div class="thumb" style="background-image: url('{$artigo['art_thumb']}')" title="Imagem de {$artigo['art_title']}"></div>
             <div class="body">
@@ -42,7 +39,6 @@ while ($artigo = $res->fetch_assoc()) :
                 <span>{$artigo['art_intro']}</span>
             </div>
         </div>
-
 HTML;
 
 endwhile;
