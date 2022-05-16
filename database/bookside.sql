@@ -1,11 +1,11 @@
 -- Apaga o banco de dados caso exista.
-DROP DATABASE IF EXISTS vitugo;
+DROP DATABASE IF EXISTS bookSide;
 
 -- Cria o banco de dados
-CREATE DATABASE vitugo CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE DATABASE bookSide CHARACTER SET utf8 COLLATE utf8_general_ci;
 
 -- Seleciona banco de dados.
-USE vitugo; 
+USE bookSide; 
 
 -- Cria tabela de usuários/autores.
 CREATE TABLE users (
