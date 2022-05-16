@@ -176,7 +176,7 @@ body {
 }
 
 .wrap>main>aside {
-    border-top: 3px dotted grey;
+    border-top: 3px grey;
     background: rgba(224, 224, 224, .85);
 }
 
