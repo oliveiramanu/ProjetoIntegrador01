@@ -29,25 +29,23 @@
 
             <a href="/" title="Página inicial"><i class="fa-solid fa-house-chimney fa-fw"></i><span>Início</span></a>
 
-            <a href="/contatos/" title="Faça contato"><i class="fa-solid fa-comment-dots fa-fw"></i><span>Contatos</span></a>
+            <a href="/resenhas/" title="Resenhas"><i class="fa-solid fa-user-pen fa-fw"></i><span>Resenhas</span></a>
 
-            <a href="/sobre/" title="Sobre..."><i class="fa-solid fa-circle-info fa-fw"></i><span>Sobre</span></a>
+            <a href="/contatos/" title="Faça contato"><i class="fa-solid fa-file-pen fa-fw"></i><span>Faça Pedidos</span></a>
+
+            <a href="/about/" title="Sobre..."><i class="fa-solid fa-circle-info fa-fw"></i><span>Sobre</span></a>
 
             <?php
-            // Se usuário está logado...
             if ($user) :
 
-                // Exibe foto dele e link para perfil.
             ?>
 
                 <a href="/user/profile/" title="Perfil"><img src="<?php echo $user['user_photo'] ?>" alt="<?php echo $user['user_name'] ?>"><span>Perfil</a>
 
             <?php
 
-            // Se usuário não está logado...
             else :
 
-                // Exibe link para login
             ?>
 
                 <a href="/user/login/" title="Usuário"><i class="fa-solid fa-right-to-bracket fa-fw"></i><span>Login</span></a>

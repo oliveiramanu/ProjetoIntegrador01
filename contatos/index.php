@@ -118,7 +118,7 @@ endif;
 /**
  * Variável que define o título desta página.
  */
-$title = "Faça contato";
+$title = "Peça resenhas";
 
 /**
  * Inclui o cabeçalho da página.
@@ -129,7 +129,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 
 <section>
 
-    <h2>Faça contato</h2>
+    <h2>Peça resenhas</h2>
 
     <?php
     // Se o cadastro foi finalizado com sucesso...
@@ -159,7 +159,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" name="contatos">
 
-            <p>Preencha todos os campos para entrar em contato com a equipe do Vitugo.</p>
+            <p>Preencha todos os campos para pedir resenhas a equipe do BookSide.</p>
 
             <?php if ($error != '') echo '<div class="error">' . $error . '</div>'; ?>
 
@@ -176,13 +176,13 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
             </p>
 
             <p>
-                <label for="subject">Assunto:</label>
+                <label for="subject">Livro:</label>
                 <input type="text" name="subject" id="subject" required minlength="5" class="valid" autocomplete="off" value="<?php echo $subject ?>">
                 <!-- O campo é obrigatório e deve ter pelo menos 5 caracteres. -->
             </p>
 
             <p>
-                <label for="message">Mensagem:</label>
+                <label for="message">Por que da resenha?</label>
                 <textarea name="message" id="message" required minlength="5" class="valid" autocomplete="off"><?php echo $message ?></textarea>
                 <!-- O campo é obrigatório e deve ter pelo menos 5 caracteres. -->
             </p>
@@ -196,13 +196,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
     <?php endif; ?>
 
 </section>
-
-<aside>
-
-    <h3>Lateral</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, aperiam corporis culpa consequatur iusto.</p>
-
-</aside>
 
 <?php
 

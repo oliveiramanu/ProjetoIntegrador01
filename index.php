@@ -5,9 +5,9 @@
  */
 require($_SERVER['DOCUMENT_ROOT'] . '/_config.php');
 
-/***********************************************
+/*****************
  * Seus códigos PHP desta página iniciam aqui! *
- ***********************************************/
+ *****************/
 
 // Variável que armazena todos os artigos para exibição no HTML.
 $artigos = '';
@@ -46,9 +46,9 @@ endwhile;
 // Fecha a lista de artigos.
 $artigos .= '</div>';
 
-/************************************************
+/****************
  * Seus códigos PHP desta página terminam aqui! *
- ************************************************/
+ ****************/
 
 /**
  * Variável que define o título desta página.
@@ -76,21 +76,16 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 <aside>
 
     <h3>Categorias</h3>
-    <p>THE BOOKS ON THE TABLE.</p>
-    <p>THE BOOKS ON THE TABLE.</p>
-    <p>THE BOOKS ON THE TABLE.</p>
-    <p>THE BOOKS ON THE TABLE.</p>
-    <p>THE BOOKS ON THE TABLE.</p>
-    <p>THE BOOKS ON THE TABLE.</p>
-    <p>THE BOOKS ON THE TABLE.</p>
-    <p>THE BOOKS ON THE TABLE.</p>
-    <p>THE BOOKS ON THE TABLE.</p>
-    <p>THE BOOKS ON THE TABLE.</p>
-    <p>THE BOOKS ON THE TABLE.</p>
-    <p>THE BOOKS ON THE TABLE.</p>
-    <p>THE BOOKS ON THE TABLE.</p>
-    <p>THE BOOKS ON THE TABLE.</p>
-
+    <a href=""><p>Poesia</p></a>
+    <a href=""><p>Romance</p></a>
+    <a href=""><p>Drama</p></a>
+    <a href=""><p>Terror</p></a>
+    <a href=""><p>Suspense</p></a>
+    <a href=""><p>Sci-fi</p></a>
+    <a href=""><p>Clássicos</p></a>
+    <a href=""><p>Biografias</p></a>
+    <a href=""><p>Humor</p></a>
+    <a href=""><p>Poesia</p></a>
 </aside>
 
 <?php
