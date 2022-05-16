@@ -6,7 +6,7 @@ $db = array(
     'hostname' => 'localhost',
     'username' => 'root',
     'password' => '',
-    'database' => 'bookside'
+    'database' => 'vitugo'
 );
 
 $conn = new mysqli($db['hostname'], $db['username'], $db['password'], $db['database']);
