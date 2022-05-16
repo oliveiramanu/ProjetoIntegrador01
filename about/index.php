@@ -9,10 +9,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 ?>
 
 <section>
-
+<div class="sobre">
     <h2>Sobre a BookSide</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, iste aliquam aperiam voluptatem molestias nemo odit unde modi cupiditate exercitationem doloremque quaerat soluta rerum quidem dignissimos officiis sapiente, aut alias!</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio soluta voluptatum consequatur voluptatibus cupiditate temporibus qui, nostrum deserunt minus laudantium in officia rem dignissimos facilis modi culpa error aliquam? Quam?</p>
+    <p>Conheça os administradores do BookSide:</p>
+    <img src="/img/adms/manu.jpg" alt="">
+    <div class="sobrealt">
+        <p>Emanuelle Gonçalves</p>
+        <p>Tenho 20 anos, gosto de livros sobre suspense e consome bastante coisa sobre true crime (séries doc, podcasts e canais no youtube)</p>
+    </div>
+</div>
 
 </section>
 

@@ -1,1 +1,11 @@
 @import url('/style.css');
+
+.sobre img{
+    padding: 100px auto;
+    max-width: 180px;
+    max-height: 180px;
+}
+.sobrealt p{
+    margin-left: 15em;
+    margin-top: -80px;
+}
