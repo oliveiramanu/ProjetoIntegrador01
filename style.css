@@ -1,13 +1,3 @@
-/**
- * Folhas de estilo globais.
- * Essa são as folhas de estilo do tema. 
- * Além dessas, cada página ou seção pode ter suas próprias folhas de estilo.
- *
- * By Luferat - https://github.com/luferat
- */
-
-/* RESET - Padroniza a visualização dos elementos na maioria dos navegadores. */
-
 * {
     box-sizing: border-box;
     outline: none;
@@ -21,9 +11,7 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
-    /* Define a fonte padrão do aplicativo. */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* Define a unidade "1rem" (1rem = 16px). */
     font-size: 16px;
 }
 
@@ -47,9 +35,6 @@ footer {
     display: block;
 }
 
-/**
- * Fundo da página.
- */
 
 body {
     background-color: rgb(170, 170, 170);
@@ -60,26 +45,17 @@ body {
     background-size: cover;
 }
 
-/**
- * Quadro principal.
- */
-
 .wrap {
-    /* Ativa "Sticky footer". */
     position: relative;
     display: flex;
     flex-direction: column;
     height: 100%;
-    /* Limita largura e centraliza a página em larguras maiores. */
     width: 100%;
     max-width: 1080px;
     min-width: 280px;
     margin: auto;
 }
 
-/**
- * Estilos do cabeçalho. 
- */
 
 .wrap>header {
     display: flex;
@@ -88,7 +64,7 @@ body {
     background: rgba(255, 255, 255, .7);
 }
 
-/* Logotipo usando "Font Awesome". */
+
 .wrap>header a {
     font-size: 70px;
     color: white;
@@ -112,9 +88,6 @@ body {
     letter-spacing: normal;
 }
 
-/**
- * Estilos do menu principal.
- */
 
 .wrap>nav {
     background: rgba(0, 0, 0, .75);
@@ -156,9 +129,6 @@ body {
     border-radius: 50%;
 }
 
-/**
- * Estilos do rodapé.
- */
 
 .wrap>footer {
     background: rgba(0, 0, 0, .75);
@@ -187,12 +157,9 @@ body {
 }
 
 
-/**
- * Conteúdo central.
- */
 
 .wrap>main {
-    /* Ativa "Sticky footer". */
+
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -218,9 +185,6 @@ body {
     margin: 0;
 }
 
-/**
- * Página inicial (/index.php).
- */
 
 .item {
     background-color: rgb(240, 240, 240);
@@ -258,11 +222,6 @@ body {
     margin: 0 0 .25rem 0;
 }
 
-/**
- * Estilos de uso geral.
- * Podem ser aplicados em qualquer página do aplicativo.
- */
-
 .text-center {
     text-align: center;
 }
@@ -288,10 +247,6 @@ hr.divider {
     margin: 1rem 0;
 }
 
-/**
- * Botões e campos de formulário.
- * Podem ser aplicados em qualquer página do aplicativo.
- */
 
 form label {
     display: block;
@@ -334,15 +289,11 @@ form button[onclick]:hover {
     background: orangered;
 }
 
-/* Marca campos inválidos. */
-
 form input:invalid,
 form textarea:invalid {
     background: rgb(255, 207, 207);
     border-bottom: 3px solid red;
 }
-
-/* Marca campos válidos. */
 
 form input:valid,
 form textarea:valid {
@@ -350,7 +301,6 @@ form textarea:valid {
     border-bottom: 3px solid green;
 }
 
-/* Desabilita botão de envio se formulário está inválido. */
 
 form:invalid button {
     background: rgb(88, 88, 88);
@@ -366,7 +316,6 @@ form input.password {
     max-width: 50%;
 }
 
-/* Botão que mostra/oculta senha. */
 
 form button[id="passToggle"], form button[id="newPassToggle"] {
     padding-left: .5rem;
@@ -376,10 +325,6 @@ form button[id="passToggle"], form button[id="newPassToggle"] {
     cursor: pointer;
 }
 
-/**
- * Responsividade.
- * Largura >= 426px.
- */
 
 @media (min-width: 426px) {
 
@@ -392,10 +337,7 @@ form button[id="passToggle"], form button[id="newPassToggle"] {
 
 }
 
-/**
- * Responsividade.
- * Largura >= 576px.
- */
+
 
 @media (min-width: 576px) {
 
@@ -414,10 +356,6 @@ form button[id="passToggle"], form button[id="newPassToggle"] {
 
 }
 
-/**
- * Responsividade.
- * Largura >= 768px.
- */
 
 @media (min-width: 768px) {
 
