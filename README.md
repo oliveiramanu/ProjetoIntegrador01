@@ -1,3 +1,2 @@
-# PHPDB01
-
-Aplicativo modelo full-stack usando HTML, CSS, PHP e MySQL.
+# ProjetoIntegrador01
+Projeto integrador módulo 02. Técnico em Informática - Senac. Professor André Ataíde.
