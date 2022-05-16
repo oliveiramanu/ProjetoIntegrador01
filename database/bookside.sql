@@ -1,11 +1,11 @@
 -- Apaga o banco de dados caso exista.
-DROP DATABASE IF EXISTS bookSide;
+DROP DATABASE IF EXISTS bookside;
 
 -- Cria o banco de dados
-CREATE DATABASE bookSide CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE DATABASE bookside CHARACTER SET utf8 COLLATE utf8_general_ci;
 
 -- Seleciona banco de dados.
-USE bookSide; 
+USE bookside; 
 
 -- Cria tabela de usuários/autores.
 CREATE TABLE users (

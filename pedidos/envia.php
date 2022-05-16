@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $feedback = <<<HTML
 
 <h3>Oooops!</h3>
-<p>Não foi possível enviar o contato.</p>
+<p>Não foi possível enviar o pedido.</p>
 <p>Você precisa preencher todos os campos do formulário.</p>
 <p><button onclick="history.go(-1)">&larr; Voltar</button></p>
 
@@ -78,7 +78,7 @@ SQL;
         $feedback = <<<HTML
 
 <h3>Olá {$parts[0]}!</h3>
-<blockquote>Seu contato foi enviado com sucesso.</blockquote>
+<blockquote>Seu pedido foi enviado com sucesso.</blockquote>
 <p><em>Obrigado...</em></p>
 <p class="text-center">
     <a href="/" title="Ir para a página inicial.">

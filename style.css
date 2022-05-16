@@ -70,7 +70,7 @@ body {
     color: white;
     -webkit-text-stroke: 3px black;
     padding-left: .5rem;
-    margin-top: -.5rem;
+    margin-top: 10px;
 }
 
 .wrap>header h1 {
