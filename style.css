@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=PT+Serif&display=swap');
 * {
     box-sizing: border-box;
     outline: none;
@@ -189,7 +190,7 @@ body {
 .item {
     background-color: rgb(240, 240, 240);
     margin-bottom: 1rem;
-    border: 1px dotted grey;
+    border: 1px grey;
     cursor: pointer;
 }
 
@@ -241,8 +242,8 @@ body {
 
 hr.divider {
     border: none;
-    border-top: 1px dotted grey;
-    border-bottom: 1px dotted grey;
+    border-top: 1px  grey;
+    border-bottom: 1px  grey;
     height: 3px;
     margin: 1rem 0;
 }
@@ -396,7 +397,7 @@ form button[id="passToggle"], form button[id="newPassToggle"] {
 
     .wrap>main>aside {
         border-top: none;
-        border-left: 3px dotted grey;
+        border-left: 3px  grey;
         flex: 0 0 200px;
     }
 

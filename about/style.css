@@ -1,11 +1,42 @@
 @import url('/style.css');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=PT+Serif&display=swap');
+
+.sobre{
+    padding: 20px;
+}
 
 .sobre img{
-    padding: 100px auto;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    border-radius: 3px;
     max-width: 180px;
     max-height: 180px;
 }
-.sobrealt p{
-    margin-left: 15em;
-    margin-top: -80px;
+
+.sobrealt h3{
+    text-align: center;
+    font-family: 'PT Serif', serif;
+}
+
+.sobre-adm {
+    text-align: left;
+    font-family: 'PT Serif', serif;
+}
+
+.sobre-sub{
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    max-width: 450px;
+    max-height: 450px;
+    font-family: 'PT Serif', serif;
+}
+
+.politicas{
+    padding: 40px;
+}
+
+.termo{
+    padding: 40px;
 }
