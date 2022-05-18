@@ -12,21 +12,21 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 <div class="sobre">
     <h2 id="sobre">Sobre a BookSide</h2>
     <p class="sobre-adm">Conheça os administradores do BookSide:</p>
-    <img src="/img/articles/emanuelle.png" alt="">
+    <img src="/img/emanuelle.png" alt="">
     <div class="sobrealt">
         <h3>Emanuelle Oliveira</h3>
         <p class="sobre-sub">Tenho 20 anos, gosto de livros sobre suspense e consome bastante coisa sobre true crime (séries doc, podcasts e canais no youtube)</p>
     </div>
 </div>
 <div class="sobre">
-    <img src="/img/articles/carol.png" alt="">
+    <img src="/img/carol.png" alt="">
     <div class="sobrealt">
         <h3>Carol Perdigão</h3>
         <p class="sobre-sub">Tenho 21 anos, gosto de livros sobre suspense e consome bastante coisa sobre true crime (séries doc, podcasts e canais no youtube)</p>
     </div>
 </div>
 <div class="sobre">
-    <img src="/img/articles/Gabriel.png" alt="">
+    <img src="/img/Gabriel.png" alt="">
     <div class="sobrealt">
         <h3>Gabriel Santana</h3>
         <p class="sobre-sub">Tenho 18 anos, gosto de livros sobre suspense e consome bastante coisa sobre true crime (séries doc, podcasts e canais no youtube)</p>
