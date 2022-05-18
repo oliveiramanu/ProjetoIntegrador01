@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="André Luferat - https://github.com/Luferat">
-    <meta name="description" content="Aplicativo modelo full-stack usando HTML, CSS, PHP e MySQL.">
+    <meta name="author" content="Carol Perdigão - https://github.com/CarolPerdigao, Emanuelle Oliveira - https://github.com/oliveiramanu, Gabriel Santana - https://github.com/gabrielnetuno">
+    <meta name="description" content="O BookSide foi feito para um projeto integrador ministrado pelo Senac no curso Técnico em Informática. Em prol de fazer resenhas de livros fisicos e online.">
     <link rel="shortcut icon" href="/favicon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
