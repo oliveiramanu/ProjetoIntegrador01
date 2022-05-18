@@ -402,3 +402,19 @@ form button[id="passToggle"], form button[id="newPassToggle"] {
     }
 
 }
+.side-art-box {
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.side-art-title {
+    font-weight: bold;
+}
+
+.side-art-title:hover {
+    color: steelblue;
+}
+
+.side-art-intro {
+    font-size: small;
+}

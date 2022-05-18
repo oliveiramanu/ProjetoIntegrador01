@@ -215,7 +215,7 @@ INSERT INTO comments (
     cmt_comment
 ) VALUES (
     '{$id}',
-    '{$artigo['user_id']}',
+    '{$user['user_id']}',
     '{$comment}'
 );
 

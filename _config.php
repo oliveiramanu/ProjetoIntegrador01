@@ -112,3 +112,46 @@ function upload_photo($photo_dir, $photo_name = '')
         'error' => $error       
     );
 }
+function mostViewed($num = 3)
+{
+
+    global $conn;
+
+    $sql = <<<SQL
+
+SELECT art_id, art_title, art_intro
+FROM articles 
+WHERE art_status = 'on'
+	AND art_date <= NOW()
+ORDER BY art_views DESC
+LIMIT {$num};
+
+SQL;
+
+    $res = $conn->query($sql);
+
+    $out = '';
+
+    if ($res->num_rows > 0) :
+
+        while ($art = $res->fetch_assoc()) :
+
+            $out .= <<<HTML
+
+<div class="side-art-box" onclick="location.href='/ler/?id={$art['art_id']}'">
+    <div class="side-art-title">• {$art['art_title']}</div>
+    <div class="side-art-intro">• {$art['art_intro']}</div>
+</div>
+
+HTML;
+
+        endwhile;
+
+    else :
+
+        $out = false;
+
+    endif;
+
+    return $out;
+}

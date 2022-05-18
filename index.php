@@ -75,17 +75,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 
 <aside>
 
-    <h3>Categorias</h3>
-    <a href=""><p>• Poesia</p></a>
-    <a href=""><p>• Romance</p></a>
-    <a href=""><p>• Drama</p></a>
-    <a href=""><p>• Terror</p></a>
-    <a href=""><p>• Suspense</p></a>
-    <a href=""><p>• Sci-fi</p></a>
-    <a href=""><p>• Clássicos</p></a>
-    <a href=""><p>• Biografias</p></a>
-    <a href=""><p>• Humor</p></a>
-    <a href=""><p>• Poesia</p></a>
+    <?php
+
+    // Obtém os artigos mais visitados para a variável $mv.
+    $mv = mostViewed();
+
+    // Se existem artigos mais visitados, exibe eles...
+    if ($mv) echo "<h3>Livros mais visitados</h3>{$mv}";
+    ?>
+
 </aside>
 
 <?php
