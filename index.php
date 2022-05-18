@@ -76,16 +76,16 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 <aside>
 
     <h3>Categorias</h3>
-    <a href=""><p>Poesia</p></a>
-    <a href=""><p>Romance</p></a>
-    <a href=""><p>Drama</p></a>
-    <a href=""><p>Terror</p></a>
-    <a href=""><p>Suspense</p></a>
-    <a href=""><p>Sci-fi</p></a>
-    <a href=""><p>Clássicos</p></a>
-    <a href=""><p>Biografias</p></a>
-    <a href=""><p>Humor</p></a>
-    <a href=""><p>Poesia</p></a>
+    <a href=""><p>• Poesia</p></a>
+    <a href=""><p>• Romance</p></a>
+    <a href=""><p>• Drama</p></a>
+    <a href=""><p>• Terror</p></a>
+    <a href=""><p>• Suspense</p></a>
+    <a href=""><p>• Sci-fi</p></a>
+    <a href=""><p>• Clássicos</p></a>
+    <a href=""><p>• Biografias</p></a>
+    <a href=""><p>• Humor</p></a>
+    <a href=""><p>• Poesia</p></a>
 </aside>
 
 <?php
